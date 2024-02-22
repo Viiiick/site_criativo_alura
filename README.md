@@ -10,7 +10,15 @@
 </head>
 <body>
     <header>
-        <h1>Vai ser uma imagem aqui</h1>
+        <img src="guarana.jpeg" alt="guarana">
+        <img class="guarana">
+
+        <header class="guarana">
+            <ul class="guarana-lista">
+                <li class="guarana-lista-item">Escola</li>
+                <li class="guarana-lista-item">Estudante</li>
+            </ul>
+        </header>
 
         <ul>
             <li>Escola</li>
@@ -20,7 +28,13 @@
 </body>
 </html>
 
+CSS
+
 header {
     background-color: #424E61;
     color: white
+}
+
+.guarana {
+    width: 20%
 }
